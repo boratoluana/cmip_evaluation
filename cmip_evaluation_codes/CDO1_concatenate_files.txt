@@ -1,0 +1,28 @@
+#!bin/bash
+# Concatenate files from the same model (some models are available in separate files)
+# Executable at the command prompt using bash command line (bash concatenate_files.txt)
+# Borato, L., Fetter Filho, A.F.H., Silva, P.G., Mendez, F.J. Characterization and future projections
+# of the Weather Types over the South Atlantic Ocean. 2021.
+# borato.luana@gmail.com
+#
+cdo cat psl_day_ACCESS1-0_historical*.nc all_psl_day_ACCESS1-0_historical.nc
+cdo cat psl_day_ACCESS1-3_historical*.nc all_psl_day_ACCESS1-3_historical.nc
+cdo cat psl_day_CMCC-CESM_historical*.nc all_psl_day_CMCC-CESM_historical.nc
+cdo cat psl_day_CMCC-CM_historical*.nc all_psl_day_CMCC-CM_historical.nc
+cdo cat psl_day_CMCC-CMS_historical*.nc all_psl_day_CMCC-CMS_historical.nc
+cdo cat psl_day_CNRM-CM5_historical*.nc all_psl_day_CNRM-CM5_historical.nc
+cdo cat psl_day_GFDL-CM3_historical*.nc all_psl_day_GFDL-CM3_historical.nc
+cdo cat psl_day_GFDL-ESM2G_historical*.nc all_psl_day_GFDL-ESM2G_historical.nc
+cdo cat psl_day_GFDL-ESM2M_historical*.nc all_psl_day_GFDL-ESM2M_historical.nc
+cdo cat psl_day_HadCM3_historical*.nc all_psl_day_HadCM3_historical.nc
+cdo cat psl_day_HadGEM2-CC_historical*.nc all_psl_day_HadGEM2-CC_historical.nc
+cdo cat psl_day_HadGEM2-ES_historical*.nc all_psl_day_HadGEM2-ES_historical.nc
+cdo cat psl_day_inmcm4_historical*.nc all_psl_day_inmcm4_historical.nc
+cdo cat psl_day_IPSL-CM5A-MR_historical*.nc all_psl_day_IPSL-CM5A-MR_historical.nc
+cdo cat psl_day_MIROC4h_historical*.nc all_psl_day_MIROC4h_historical.nc
+cdo cat psl_day_MIROC5_historical*.nc all_psl_day_MIROC5_historical.nc
+cdo cat psl_day_MPI-ESM-LR_historical*.nc all_psl_day_MPI-ESM-LR_historical.nc
+cdo cat psl_day_MPI-ESM-MR_historical*.nc all_psl_day_MPI-ESM-MR_historical.nc
+cdo cat psl_day_MPI-ESM-P_historical*.nc all_psl_day_MPI-ESM-P_historical.nc
+cdo cat psl_day_MRI-CGCM3_historical*.nc all_psl_day_MRI-CGCM3_historical.nc
+cdo cat psl_day_MRI-ESM1_historical*.nc all_psl_day_MRI-ESM1_historical.nc

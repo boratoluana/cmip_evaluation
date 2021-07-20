@@ -19,7 +19,7 @@ We recommend, for example: "CMIP5_historical"; "CMIP5_scenarios/CMIP5_RCP26"; "C
 Attention: 
 	* Matlab codes are written for the CMIP5 historical period and, where necessary, for RCP26 scenario.
 	For other data, like CMIP6 or other scenarios, you will need to change the directory and file name in the code. 
-	This is only needed on the input lines of code. 
+	This is only needed on the input and output lines of code. You can use, for example, the "ctrl+f" tool.
 	
 	* At the beginning of each code, the requirements needed to run the code are indicated.
 
